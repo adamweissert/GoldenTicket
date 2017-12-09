@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create an Account</title>
+    <meta charset="UTF-8">
+    <link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+    <h1 class="title">The Golden Ticket</h1>
+    </div>
+    <div class="containerregister">
+    <h1>Create an Account</h1>
+    <form method="post" action="register.php">
+        <h3>Account Information</h3>
+    <table>
+     <tr><td>Username: </td><td><input name="username" class="regularText"></td></tr>
+     <tr><td>Password: </td><td><input type="password" name="password" class="regularText"></td></tr>
+     <tr><td>Re-Type Password: </td><td><input type="password" name="password2" class="regularText"></td>   </tr>
+     </table>
+<h3>Tell us a little about yourself...</h3>
+ <table>
+  <tr><td>First Name: </td><td><input name="fname" class="regularText"></td></tr>
+  <tr><td>Last Name: </td><td><input name="lname" class="regularText"></td></tr>
+  <tr><td>Email: </td><td><input name="email" class="regularText"></td></tr>
+  <tr><td>Address Line 1: </td><td><input name="addr1" size="25" class="regularText"></td></tr>
+  <tr><td>Address Line 2: </td><td><input name="addr2" size="25" class="regularText"> </td></tr>
+  <tr><td>City: </td><td><input name="city" class="regularText"> State: <input name="state" size="2" class="regularText"> Zip Code: <input name="zip" size="5" class="regularText"></td></tr>
+  <tr><td></td></tr>
+  <tr><td>Phone: </td><td><input name="phone" placeholder="(XXX-XXX-XXXX)" class="regularText">  </td></tr>
+ </table>
+ <p><input type="submit" value="Create Account" class="registerButton"></p>
+ </form>
+</div>
+</body>
+</html>
